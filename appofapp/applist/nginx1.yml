@@ -10,7 +10,7 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 spec:
   # The project the application belongs to.
-  project: appsofapps
+  project: appofapp
 
   # Source of the application manifests
   source:
