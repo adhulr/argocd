@@ -15,7 +15,7 @@ spec:
   source:
     repoURL: https://github.com/adhulr/argocd.git
     targetRevision: test
-    path: ./appofapp
+    path: ./appofapp/applist
 
     # directory
     directory:
