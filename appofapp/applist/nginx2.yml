@@ -16,7 +16,7 @@ spec:
   source:
     repoURL: github.com/adhulr/argocd.git
     targetRevision: test
-    path: /argocd/appofapp/nginxapplications/nginx2
+    path: appofapp/nginxapplications/nginx2
 
   # Destination cluster and namespace to deploy the application
   destination:
