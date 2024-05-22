@@ -4,7 +4,7 @@ kind: Application
 metadata:
   name: nginx2
   # You'll usually want to add your resources to the argocd namespace.
-  namespace: appofapps
+  namespace: nginx
   # Add a this finalizer ONLY if you want these to cascade delete.
   finalizers:
     - resources-finalizer.argocd.argoproj.io
